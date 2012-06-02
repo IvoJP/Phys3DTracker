@@ -1,4 +1,4 @@
-ci = raw_input('Would you like to visual a Niffte event? Enter y or n.\n')
+ci = raw_input('Would you like to analyze a Niffte event? Enter y or n.\n')
 while ci == 'y':
 
 # Import Data import function and attrgetter in order to read and sort data.
@@ -63,4 +63,4 @@ while ci == 'y':
 
     ci = raw_input('Would you like to examine another event? Enter y or n.\n')
 
-print 'Thank you'
+print 'Goodbye'
